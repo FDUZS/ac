@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "IamZS"
-baseurl = "https://fduzs.github.io"
+baseurl = "https://fduzs.github.io/ac"
 disableKinds = ["sitemap", "RSS"]
 
 [params]
