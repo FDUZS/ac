@@ -22,4 +22,4 @@ jobs:
 
       - run: ossutil update -f
 
-      - run: ossutil sync ./ oss://iamzs-cn/ --delete --force --exclude ".nojekyll" --exclude ".git/"
+      - run: ossutil sync ./ oss://iamzs-cn/ --delete --force
