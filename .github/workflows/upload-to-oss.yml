@@ -21,6 +21,5 @@ jobs:
           # sts-token: "sts_token"
 
       - run: ossutil update -f
-      # - run: ossutil rm oss://iamzs-cn/* -rf
-      # - run: ossutil cp -rf ./ oss://iamzs-cn/
-      - run: ossutil sync ./ oss://iamzs-cn/ --delete --force
+
+      - run: ossutil sync ./ oss://iamzs-cn/ --delete --force --exclude ".nojekyll" --exclude ".git/"
