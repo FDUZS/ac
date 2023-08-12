@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "留住生活中的感动"
-baseurl = "https://www.iamzs.cn"
+baseurl = "https://www.iamzs.cn/"
 disableKinds = ["sitemap", "RSS"]
 
 [params]
